@@ -7,22 +7,23 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class CorsConfig {
-  
+
     @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        // Instead of "*", list explicit origins, e.g. your frontend URLs:
-                        .allowedOrigins("http://localhost:3000", "http://127.0.0.1:3000")
+                        // List explicit allowed origins (no trailing slash)
+                        .allowedOrigins(
+                            "http://localhost:3000", 
+                            "http://127.0.0.1:3000", 
+                            "https://flowclaims.netlify.app",
+                            "https://45636daad675.ngrok-free.app/api"
+                        )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
-                
-                // OR use allowedOriginPatterns (spring 5.3+)
-                // .allowedOriginPatterns("*")
-                // .allowCredentials(true);
             }
         };
     }
