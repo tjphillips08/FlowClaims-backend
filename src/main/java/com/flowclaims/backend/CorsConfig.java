@@ -14,12 +14,11 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        // List explicit allowed origins (no trailing slash)
                         .allowedOrigins(
                             "http://localhost:3000", 
                             "http://127.0.0.1:3000", 
                             "https://flowclaims.netlify.app",
-                            "https://f435ecded8e8.ngrok-free.app"
+                            "https://flowclaims-backend.onrender.com" // ← replace with your Render domain once known
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")

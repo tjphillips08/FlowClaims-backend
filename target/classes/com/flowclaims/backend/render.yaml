@@ -1,0 +1,15 @@
+# render.yaml
+services:
+  - type: web
+    name: flowclaims-backend
+    env: java
+    plan: free
+    buildCommand: ./gradlew build
+    startCommand: java -jar build/libs/*.jar
+    envVars:
+      - key: SPRING_DATASOURCE_URL
+        value: your_database_url
+      - key: SPRING_DATASOURCE_USERNAME
+        value: your_db_user
+      - key: SPRING_DATASOURCE_PASSWORD
+        value: your_db_password
