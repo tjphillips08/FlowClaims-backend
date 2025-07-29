@@ -1,0 +1,17 @@
+com/flowclaims/backend/CorsConfig.class
+com/flowclaims/backend/model/NoteDTO.class
+com/flowclaims/backend/model/ClaimDTO.class
+com/flowclaims/backend/FlowclaimsBackendApplication.class
+com/flowclaims/backend/repository/ClaimRepository.class
+com/flowclaims/backend/model/Claim.class
+com/flowclaims/backend/model/Note.class
+com/flowclaims/backend/model/WeatherService.class
+com/flowclaims/backend/controller/NoteController.class
+com/flowclaims/backend/model/GeocodingService.class
+com/flowclaims/backend/model/HeatMapPoint.class
+com/flowclaims/backend/repository/NoteRepository.class
+com/flowclaims/backend/controller/TrendsController.class
+com/flowclaims/backend/utils/DummyDataLoader.class
+com/flowclaims/backend/CorsConfig$1.class
+com/flowclaims/backend/controller/ClaimController.class
+com/flowclaims/backend/controller/HeatMapController.class

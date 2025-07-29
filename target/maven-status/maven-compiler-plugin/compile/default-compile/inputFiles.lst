@@ -1,0 +1,16 @@
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/CorsConfig.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/FlowclaimsBackendApplication.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/controller/ClaimController.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/controller/HeatMapController.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/controller/NoteController.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/controller/TrendsController.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/model/Claim.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/model/ClaimDTO.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/model/GeocodingService.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/model/HeatMapPoint.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/model/Note.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/model/NoteDTO.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/model/WeatherService.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/repository/ClaimRepository.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/repository/NoteRepository.java
+/Users/taylorphillips/backend/src/main/java/com/flowclaims/backend/utils/DummyDataLoader.java

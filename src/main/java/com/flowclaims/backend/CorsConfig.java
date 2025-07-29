@@ -19,7 +19,7 @@ public class CorsConfig {
                             "http://localhost:3000", 
                             "http://127.0.0.1:3000", 
                             "https://flowclaims.netlify.app",
-                            "https://45636daad675.ngrok-free.app/api"
+                            "https://f435ecded8e8.ngrok-free.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
